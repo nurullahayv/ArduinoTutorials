@@ -3,7 +3,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 # Import data using Pandas (install with: pip install pandas)
-data = pd.read_csv("data.csv")
+data = pd.read_csv("data.csv", on_bad_lines='skip')
 print(data)
 
 # Retrieve data columns

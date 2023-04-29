@@ -21,7 +21,7 @@ serialCom.flushInput()
 serialCom.setDTR(True)
 
 # How many data points to record
-kmax = 180*90
+kmax =       180*90
 
 # Loop through and collect data as it is available
 for k in range(kmax):
